@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+.kotlin/
+local.properties
+
+# Keep shared inspection profiles; exclude machine and workspace settings.
+/.idea/*
+!/.idea/inspectionProfiles/
+
+.DS_Store
+build/
+/captures
+.externalNativeBuild/
+.cxx/
+
+# Local signing configuration and private keys
+*.jks
+*.keystore
+key.properties

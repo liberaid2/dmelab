@@ -1,0 +1,8 @@
+# Global --config override for the library-mode generator; Android keeps uniffi.toml.
+[crates.dmelab_ffi.bindings.kotlin]
+package_name = "dev.coldcat.dmelab.ffi"
+cdylib_name = "dmelab_ffi"
+android = false
+android_cleaner = false
+kotlin_target_version = "1.9.0"
+generate_immutable_records = true

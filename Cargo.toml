@@ -1,0 +1,33 @@
+[workspace]
+members = ["crates/dmelab-core", "crates/dmelab-ms43", "crates/dmelab-transport-serial", "crates/dmelab-cli", "crates/dmelab-ffi"]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+
+[workspace.dependencies]
+dmelab-core = { path = "crates/dmelab-core" }
+dmelab-ms43 = { path = "crates/dmelab-ms43" }
+dmelab-transport-serial = { path = "crates/dmelab-transport-serial" }
+thiserror = "2"
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+serialport = { version = "4", default-features = false }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", default-features = false, features = ["fmt", "ansi"] }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[profile.release]
+opt-level = "z"
+lto = "fat"
+codegen-units = 1
+panic = "unwind"
+# UniFFI needs the symbol table until bindings have been generated.
+strip = "debuginfo"
+
+[profile.release.package.dmelab-cli]
+strip = "symbols"

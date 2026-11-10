@@ -1,0 +1,11 @@
+<resources>
+    <string name="operation_read_dtc">Чтение ошибок</string>
+    <string name="operation_clear_dtc">Сброс ошибок</string>
+    <string name="operation_live_data">Опрос параметров</string>
+    <string name="operation_read_flash">Чтение прошивки</string>
+    <string name="operation_write_flash">Запись прошивки</string>
+    <string name="operation_open">Открыть</string>
+    <string name="operation_stop_live_data">Остановить опрос</string>
+    <string name="operation_stopping">Завершаем текущий запрос…</string>
+    <string name="operation_interrupted">Прошлая операция прервана завершением приложения. Автоматического продолжения нет. Восстановите соединение и определите ЭБУ заново.</string>
+</resources>

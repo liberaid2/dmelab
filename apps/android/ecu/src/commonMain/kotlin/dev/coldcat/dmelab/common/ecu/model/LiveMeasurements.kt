@@ -1,0 +1,33 @@
+package dev.coldcat.dmelab.common.ecu.model
+
+/** Decoded ECU values; no native objects cross the module boundary. */
+data class LiveMeasurements(
+    val engineSpeedRpm: UShort,
+    val vehicleSpeedKmh: UByte,
+    val acceleratorPedalAngleDeg: Double,
+    val throttleAngleDeg: Double,
+    val massAirflowKgh: Double,
+    val intakeAirTemperatureC: Double,
+    val coolantTemperatureC: Double,
+    val oilTemperatureC: Double,
+    val radiatorOutletTemperatureC: Double,
+    val ignitionTimingCylinder1Deg: Double,
+    val injectionTimeBank1Ms: Double,
+    val idleSpeedIntegratorPct: Double,
+    val idleAirControlDutyPct: Double,
+    val intakeCamshaftAngleDeg: Double,
+    val exhaustCamshaftAngleDeg: Double,
+    val terminal15VoltageV: Double,
+    val lambdaIntegratorBank1: Double,
+    val lambdaIntegratorBank2: Double,
+    val oxygenSensorHeaterUpstreamBank1DutyPct: Double,
+    val oxygenSensorHeaterUpstreamBank2DutyPct: Double,
+    val oxygenSensorHeaterDownstreamBank1DutyPct: Double,
+    val oxygenSensorHeaterDownstreamBank2DutyPct: Double,
+    val airMassPerStrokeMg: Double,
+    val knockSignalCylinder2V: Double,
+    val knockSignalCylinder5V: Double,
+    val coolingFanDutyPct: Double,
+    val ambientPressureHpa: Double,
+    val batteryVoltageV: Double,
+)

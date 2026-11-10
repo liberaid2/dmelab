@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="live_log_rename">Переименовать</string>
+    <string name="live_log_name_label">Имя без расширения</string>
+    <string name="live_log_name_hint">Расширение и отметка частичного лога сохраняются. Если имя занято, добавим -1, -2 и далее.</string>
+    <string name="live_log_invalid_name">Введите короткое имя без точек по краям, разделителей пути и специальных символов. Суффикс _partial зарезервирован для частичных логов.</string>
+    <string name="live_log_rename_error">Не удалось переименовать лог. Проверьте доступность файла и попробуйте снова.</string>
+    <string name="live_log_renamed">Лог переименован.</string>
+    <string name="live_log_select">Выбрать</string>
+    <string name="live_log_deselect">Снять выбор</string>
+    <string name="live_log_selected_count">Выбрано: %1$s</string>
+    <string name="live_log_clear_selection">Отменить выбор логов</string>
+    <string name="live_log_selection_hint">Удерживайте готовый лог, чтобы выбрать несколько CSV и поделиться ими.</string>
+    <string name="live_log_selection_active">Нажимайте на логи для выбора. «Поделиться» в верхней панели отправит выбранные CSV отдельными файлами.</string>
+    <string name="live_log_record">Записывать в CSV</string>
+    <string name="live_log_record_note">Включите перед запуском опроса. Один успешный набор выбранных групп — одна строка. Разовое чтение не записывается.</string>
+    <string name="live_log_title">Логи параметров</string>
+    <string name="live_log_recording">Идёт запись CSV</string>
+    <string name="live_log_ready">CSV сохранён</string>
+    <string name="live_log_partial">Частичный CSV</string>
+    <string name="live_log_stats">Наборов: %1$s · %2$s · %3$s КиБ</string>
+    <string name="live_log_wait">Остановите опрос, чтобы поделиться файлом. Запись продолжится при уходе с экрана.</string>
+    <string name="live_log_partial_note">Запись прервана. Файл содержит только сохранённые полные наборы.</string>
+    <string name="live_log_share">Поделиться</string>
+    <string name="live_log_more">Ещё</string>
+    <string name="live_log_save">Сохранить как…</string>
+    <string name="live_log_delete">Удалить</string>
+    <string name="live_log_delete_title">Удалить CSV из приложения?</string>
+    <string name="live_log_delete_note">Восстановить этот лог не получится. Сохранённые и отправленные копии останутся.</string>
+    <string name="live_log_file_error">Не удалось открыть, сохранить или отправить файл логов. Проверьте свободное место и попробуйте снова. Незавершённая экспортированная копия может остаться в выбранной папке.</string>
+    <string name="live_log_saved">Копия CSV сохранена в выбранном месте.</string>
+    <string name="live_log_open">Логи</string>
+    <string name="live_log_unavailable">Не удалось завершить CSV</string>
+    <string name="live_log_reload">Обновить список логов</string>
+    <string name="live_log_show_all">Все логи (%1$s)</string>
+    <string name="live_log_collapse">Свернуть список</string>
+    <string name="live_log_archive_export">Экспорт всех в ZIP</string>
+    <string name="live_log_archive_count">Готовых CSV для экспорта: %1$s</string>
+    <string name="live_log_archive_note">Все готовые CSV на момент подготовки, включая частичные. Активная запись и недоступные файлы не включаются.</string>
+    <string name="live_log_archive_share">Поделиться ZIP</string>
+    <string name="live_log_archive_save">Сохранить ZIP как…</string>
+    <string name="live_log_archive_saved">ZIP со всеми выбранными логами сохранён.</string>
+    <string name="live_log_file_busy">Работа с файлами…</string>
+</resources>

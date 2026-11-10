@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch-window mirror of DmeColors.background; keep these values aligned. -->
+    <color name="dme_background">#0B1018</color>
+    <!-- Platform-control mirror of DmeColors.accent. -->
+    <color name="dme_accent">#C46AF0</color>
+    <color name="dme_icon_background">#200235</color>
+</resources>

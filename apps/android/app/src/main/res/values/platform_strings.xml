@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DME Lab</string>
+    <string name="operation_notification_channel">Работа с ЭБУ</string>
+    <string name="operation_notification_starting">Подготовка операции</string>
+    <string name="operation_read_dtc">Чтение ошибок</string>
+    <string name="operation_clear_dtc">Сброс ошибок</string>
+    <string name="operation_live">Чтение параметров</string>
+    <string name="operation_read_flash">Чтение прошивки</string>
+    <string name="operation_write_flash">Запись прошивки</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diagnostics_cancel">Отмена</string>
+    <string name="diagnostics_busy_hint">ЭБУ занят. Дождитесь завершения операции; новые команды в очередь не ставятся.</string>
+    <string name="diagnostics_last_result">Последний результат · %1$s</string>
+    <string name="diagnostics_reading_dtc">Чтение ошибок…</string>
+    <string name="diagnostics_clearing_dtc">Очистка памяти ошибок…</string>
+    <string name="diagnostics_polling">Чтение параметров…</string>
+    <string name="diagnostics_reading_flash">Чтение прошивки…</string>
+    <string name="diagnostics_writing_flash">Запись прошивки…</string>
+    <string name="dtc_title">Ошибки · DTC</string>
+    <string name="dtc_description">Собственные коды MS43 и частота появления. Расшифровка и статус active/stored пока недоступны.</string>
+    <string name="dtc_read">Прочитать</string>
+    <string name="dtc_clear">Очистить</string>
+    <string name="dtc_not_read">Нажмите «Прочитать», чтобы получить память ошибок ЭБУ.</string>
+    <string name="dtc_empty">Ошибок не найдено.</string>
+    <string name="dtc_frequency">Частота: %1$s</string>
+    <string name="dtc_data">Данные: %1$s</string>
+    <string name="dtc_raw">Исходная запись: %1$s</string>
+    <string name="dtc_clear_title">Очистить память ошибок?</string>
+    <string name="dtc_clear_warning">Будет очищена вся память DTC выбранного MS43. Сохраните нужные сведения перед очисткой. Постоянные неисправности могут появиться снова. Сброс адаптаций не выполняется.</string>
+    <string name="dtc_clear_confirm">Подтвердить очистку</string>
+    <string name="dtc_clear_acknowledged">Очистка подтверждена ЭБУ · %1$s. Прочитайте ошибки заново, чтобы проверить текущую память. Список ниже — результат прошлого чтения.</string>
+    <string name="live_title">Параметры · Live Data</string>
+    <string name="live_description">Получите один набор значений или запустите последовательный опрос. Уход с экрана не останавливает опрос.</string>
+    <string name="live_start">Начать опрос</string>
+    <string name="live_stop">Остановить</string>
+    <string name="live_once">Один раз</string>
+    <string name="live_stopping">Остановка после текущего запроса…</string>
+    <string name="live_stopped">Обновление остановлено. Показаны ранее полученные значения.</string>
+    <string name="live_not_read">Данные ещё не получены.</string>
+    <string name="live_snapshot_note">Выбранные группы читаются последовательно. Параметры из разных групп не являются одновременным снимком. DISA отражает команду управления, а не физическое положение заслонки.</string>
+    <string name="live_command_active">Команда активна</string>
+    <string name="live_command_inactive">Команда неактивна</string>
+    <string name="live_unknown">—</string>
+    <string name="live_value_unit">%1$s %2$s</string>
+    <string name="diagnostics_connection_required">Для новых запросов подключите адаптер, разрешите USB-доступ и заново определите ЭБУ. Сохранённые данные ниже относятся к последнему успешному чтению.</string>
+    <string name="live_read_duration">Последнее чтение: %1$s мс</string>
+    <string name="live_update_frequency">Средняя частота: %1$s Гц</string>
+    <string name="live_sample_interval">Интервал между наборами: %1$s мс</string>
+    <string name="live_recovering">Восстанавливаем опрос. Ошибок подряд: %1$s. Новые данные пока не получены; опрос продолжится автоматически.</string>
+</resources>

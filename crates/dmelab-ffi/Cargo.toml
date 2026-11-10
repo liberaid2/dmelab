@@ -1,0 +1,28 @@
+[package]
+name = "dmelab-ffi"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "dmelab-bindgen"
+path = "src/bin/bindgen.rs"
+required-features = ["bindgen"]
+
+[features]
+bindgen = ["uniffi/cli", "uniffi/cargo-metadata"]
+desktop = ["dep:dmelab-transport-serial"]
+
+[dependencies]
+dmelab-core.workspace = true
+dmelab-ms43.workspace = true
+dmelab-transport-serial = { workspace = true, optional = true }
+thiserror.workspace = true
+tracing.workspace = true
+uniffi = { version = "=0.32.2", default-features = false }
+
+[lints]
+workspace = true

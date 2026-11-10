@@ -1,0 +1,18 @@
+# Rust builds and generated distribution artifacts
+/target/
+/dist/
+
+# Compiler object files, including Zig compiler probes
+*.o
+*.obj
+
+# Local research materials
+/research/
+
+# Local IDE settings
+/.idea/
+
+# OS files, logs and memory dumps
+.DS_Store
+*.log
+*.hprof

@@ -1,0 +1,7 @@
+<resources>
+    <string name="desktop_close_title">Операция ещё выполняется</string>
+    <string name="desktop_close_body">Приложение закроется после завершения обмена и сохранения результата. Запись прошивки нельзя прерывать закрытием окна.</string>
+    <string name="desktop_close_stop">Остановить опрос и закрыть</string>
+    <string name="desktop_close_wait">Дождаться и закрыть</string>
+    <string name="desktop_close_stay">Остаться</string>
+</resources>

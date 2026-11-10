@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firmware_open_invalid">Нужен файл .bin MS43 размером ровно 64 или 512 КиБ с корректной сигнатурой. Этот файл не подходит для записи.</string>
+    <string name="firmware_open_access">Не удалось открыть файл. Выберите его снова в файловом менеджере и разрешите доступ.</string>
+    <string name="firmware_open_pending">Файл «%1$s» подготовлен. Подключите кабель и определите ЭБУ — затем откроется подготовка записи. Если идёт другая операция, сначала завершите её.</string>
+    <string name="firmware_back">Назад</string>
+    <string name="firmware_read_title">Чтение прошивки</string>
+    <string name="firmware_write_title">Запись прошивки</string>
+    <string name="firmware_read_intro">Выберите образ и место сохранения. Чтение начнётся после выбора файла назначения.</string>
+    <string name="firmware_write_intro">Выберите режим и файл. Запись начнётся только после проверки образа и отдельного подтверждения.</string>
+    <string name="firmware_read_full">Полный образ · 512 КиБ</string>
+    <string name="firmware_read_calibration">Калибровки · 64 КиБ</string>
+    <string name="firmware_write_full">Программа и калибровки · образ 512 КиБ</string>
+    <string name="firmware_write_calibration">Только калибровки · образ 64 или 512 КиБ</string>
+    <string name="firmware_choose_destination">Выбрать место и прочитать</string>
+    <string name="firmware_choose_file">Выбрать файл</string>
+    <string name="firmware_review_write">Проверить сводку и продолжить</string>
+    <string name="firmware_inspecting">Проверяем файл…</string>
+    <string name="firmware_preflight">Формат образа проверен. Совместимость с ЭБУ и напряжение будут проверены ядром перед записью. Bootloader не изменяется.</string>
+    <string name="firmware_read_running">Читаем прошивку…</string>
+    <string name="firmware_write_running">Записываем прошивку…</string>
+    <string name="firmware_keep_connected">Не отключайте кабель и питание ЭБУ. Завершение передачи ещё не означает завершение операции.</string>
+    <string name="firmware_background">Можно вернуться на другие экраны: операция продолжится в фоне. Безопасная отмена пока недоступна.</string>
+    <string name="firmware_read_success">Последний сохранённый образ</string>
+    <string name="firmware_write_success">Последняя успешная запись</string>
+    <string name="firmware_ignition">После успешной записи выключите зажигание, подождите 10 секунд, затем снова включите его в положение 2.</string>
+    <string name="firmware_confirm_title">Подтвердите запись</string>
+    <string name="firmware_confirm_details">Bootloader не стирается и не записывается. Обеспечьте стабильное питание ЭБУ. После начала записи не отключайте кабель и зажигание; прерывание может оставить запись незавершённой.</string>
+    <string name="firmware_confirm_write">Записать прошивку</string>
+    <string name="firmware_not_now">Не сейчас</string>
+    <string name="firmware_busy">ЭБУ занят другой операцией. Дождитесь её завершения; запрос не поставлен в очередь.</string>
+    <string name="firmware_disconnected">Подключение недоступно. Подключите адаптер, разрешите доступ и заново определите ЭБУ.</string>
+    <string name="firmware_reconnect">Не удалось подтвердить исходную скорость связи. Восстановите питание и подключение ЭБУ и адаптера, затем выполните новую идентификацию.</string>
+    <string name="firmware_exchange_error">Операция не завершена: ошибка обмена с ЭБУ. Проверьте кабель и питание. Запись автоматически не повторяется.</string>
+    <string name="firmware_invalid_image">Образ не прошёл проверку или изменился после проверки. Выберите подходящий файл MS43 для выбранного режима и проверьте его заново.</string>
+    <string name="firmware_low_voltage">Ядро отклонило запись из-за низкого напряжения. Обеспечьте стабильное питание и повторите проверку.</string>
+    <string name="firmware_mismatch">Версия прошивки образа не соответствует ЭБУ. Выберите совместимый файл.</string>
+    <string name="firmware_file_error">Не удалось прочитать или сохранить файл. Проверьте доступ к документу и свободное место. Созданный файл может быть пустым или незавершённым — не используйте его как образ.</string>
+    <string name="firmware_library_error">Нативная библиотека недоступна. Проверьте установку приложения.</string>
+    <string name="firmware_unexpected_error">Операция не завершена. Проверьте подключение перед повторной попыткой. Запись автоматически не повторяется.</string>
+    <string name="firmware_interrupted">Предыдущая операция была прервана завершением процесса. Проверьте состояние ЭБУ; запись автоматически не возобновляется.</string>
+    <string name="firmware_elapsed_time">Прошло: %1$s</string>
+    <string name="firmware_total_time">Длительность: %1$s</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="live_groups_title">Что читать и записывать</string>
+    <string name="live_groups_note">Выбор применяется к разовому чтению, опросу и CSV. Меньше групп — меньше запросов к ЭБУ. Внутри группы параметры читаются вместе.</string>
+    <string name="live_group_measurements">Параметры двигателя</string>
+    <string name="live_group_measurements_description">28 показателей: обороты, температуры, смесь, напряжение и другие.</string>
+    <string name="live_group_vanos">VANOS</string>
+    <string name="live_group_vanos_description">Фактическое, целевое и опорное положение обоих валов.</string>
+    <string name="live_group_digital">DISA</string>
+    <string name="live_group_digital_description">Команда управления заслонкой, без измерения её физического положения.</string>
+    <string name="live_groups_empty">Выберите хотя бы одну группу.</string>
+    <string name="live_groups_locked">Изменить набор можно после завершения текущей операции.</string>
+    <string name="live_idle_integrator">Интегратор регулятора холостого хода</string>
+    <string name="live_idle_duty">Команда клапана холостого хода</string>
+    <string name="live_intake_camshaft">Угол впускного вала · основной пакет</string>
+    <string name="live_exhaust_camshaft">Угол выпускного вала · основной пакет</string>
+    <string name="live_terminal_15">Напряжение клеммы 15</string>
+    <string name="live_heater_upstream1">Команда подогрева лямбда-зонда до катализатора · банк 1</string>
+    <string name="live_heater_upstream2">Команда подогрева лямбда-зонда до катализатора · банк 2</string>
+    <string name="live_heater_downstream1">Команда подогрева лямбда-зонда после катализатора · банк 1</string>
+    <string name="live_heater_downstream2">Команда подогрева лямбда-зонда после катализатора · банк 2</string>
+    <string name="live_ambient_pressure">Атмосферное давление</string>
+    <string name="live_battery_voltage">Напряжение аккумулятора</string>
+    <string name="live_unit_hpa">гПа</string>
+</resources>

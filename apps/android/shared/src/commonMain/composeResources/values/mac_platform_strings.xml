@@ -1,0 +1,11 @@
+<resources>
+    <string name="mac_cable_title">Кабель → Mac</string>
+    <string name="mac_cable_body">Подключите FTDI K-line кабель к USB-порту Mac. При необходимости используйте USB-C переходник.</string>
+    <string name="mac_waiting_body">Подключите адаптер к Mac и обновите список. Если порт не появился, проверьте кабель, переходник и доступность serial-драйвера.</string>
+    <string name="mac_choose_port_body">Укажите serial-порт кабеля, подключённого к автомобилю. На macOS предпочтителен порт /dev/cu.*.</string>
+    <string name="mac_cable_footer">Выберите serial-порт адаптера перед проверкой ЭБУ</string>
+    <string name="mac_log_reveal">Показать в Finder</string>
+    <string name="mac_archive_reveal">Показать ZIP в Finder</string>
+    <string name="mac_log_selection_hint">Удерживайте готовый лог или выберите «Ещё → Выбрать», чтобы выделить несколько CSV и открыть их в Finder.</string>
+    <string name="mac_log_selection_active">Нажимайте на логи для выбора. «Показать в Finder» выделит выбранные CSV; отправить их можно через меню «Поделиться» в Finder.</string>
+</resources>

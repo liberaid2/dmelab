@@ -1,0 +1,11 @@
+<resources>
+    <string name="mobile_connection_title">Подключение к ЭБУ</string>
+    <string name="mobile_step_cable">Шаг 1 из 2</string>
+    <string name="mobile_step_ecu">Шаг 2 из 2</string>
+    <string name="mobile_read_heading">Сохраните образ ЭБУ</string>
+    <string name="mobile_write_heading">Подготовьте прошивку</string>
+    <string name="mobile_dtc_heading">Память неисправностей</string>
+    <string name="mobile_live_heading">Показатели двигателя</string>
+    <string name="mobile_change_file">Выбрать другой файл</string>
+    <string name="mobile_stopping">Останавливаем…</string>
+</resources>
